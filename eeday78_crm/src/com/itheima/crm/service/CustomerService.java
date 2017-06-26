@@ -10,5 +10,6 @@ public interface CustomerService {
 	Customer queryCustomerById(Integer id);
 	void update(Customer customer);
 
+
 	void deleteCustomerById(Integer id);
 }
